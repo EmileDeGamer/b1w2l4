@@ -73,17 +73,23 @@ function bereken() {
         hoeveelheidL = 0
         prijsL = 0
     }
-    else if (hoeveelheidM === undefined){
+    else{
+        prijsL = hoeveelheidL * LARGEPRICE
+    }
+    if (hoeveelheidM === undefined){
         hoeveelheidM = 0
         prijsM = 0
+    }      
+    else{
+        prijsM = hoeveelheidM * MEDIUMPRICE
     }
-    else if (hoeveelheidS === undefined){
+    if (hoeveelheidS === undefined){
         hoeveelheidS = 0
         prijsS = 0
     }
-    prijsS = hoeveelheidS * SMALLPRICE
-    prijsM = hoeveelheidM * MEDIUMPRICE
-    prijsL = hoeveelheidL * LARGEPRICE
+    else{
+        prijsS = hoeveelheidS * SMALLPRICE
+    }   
     document.write('Small: ' + hoeveelheidS + ' * €' + SMALLPRICE + ' = €' + prijsS + "<br>")
     document.write('Medium: ' + hoeveelheidM + ' * €' + MEDIUMPRICE + ' = €' + prijsM + "<br>")
     document.write('Large: ' + hoeveelheidL + ' * €' + LARGEPRICE + ' = €' + prijsL + "<br>")
