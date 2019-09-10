@@ -22,9 +22,9 @@ function choice(){
     if (userInput === 'small'){
         let tempHoeveelheidS = hoeveelheidS
         hoeveelheidS = prompt('Hoeveel pizzas wilt u in het formaat ' + userInput)
-        if (hoeveelheidS !== Number()){
+        /*if (hoeveelheidS !== Number()){
             main()
-        }
+        }*/
         let userInputS = prompt('wilt u nog meer pizzas bestellen?', "Y/N")
         if (tempHoeveelheidS > 0){
             hoeveelheidS = parseInt(tempHoeveelheidS) + parseInt(hoeveelheidS)
@@ -39,9 +39,9 @@ function choice(){
     else if (userInput === 'medium'){
         let tempHoeveelheidM = hoeveelheidM
         hoeveelheidM = prompt('Hoeveel pizzas wilt u in het formaat ' + userInput)
-        if (hoeveelheidM !== Number()){
+        /*if (hoeveelheidM !== Number()){
             main()
-        }
+        }*/
         let userInputM = prompt('wilt u nog meer pizzas bestellen?', "Y/N")
         if (tempHoeveelheidM > 0){
             hoeveelheidM = parseInt(tempHoeveelheidM) + parseInt(hoeveelheidM)
@@ -56,9 +56,9 @@ function choice(){
     else if (userInput === 'large'){
         let tempHoeveelheidL = hoeveelheidL
         hoeveelheidL = prompt('Hoeveel pizzas wilt u in het formaat ' + userInput)  
-        if (hoeveelheidL !== Number()){
+        /*if (hoeveelheidL !== Number()){
             main()
-        }
+        }*/
         let userInputL = prompt('wilt u nog meer pizzas bestellen?', "Y/N")
         if (tempHoeveelheidL > 0){
             hoeveelheidL = parseInt(tempHoeveelheidL) += parseInt(hoeveelheidL)
