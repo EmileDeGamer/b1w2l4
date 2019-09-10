@@ -1,3 +1,6 @@
+//Emile Mol
+//Applicatie en Media Ontwikkelaar
+
 //Aanmaken van de variabelen
 const SMALLPRICE = 10, MEDIUMPRICE = 12, LARGEPRICE = 14
 let prijsS, prijsM, prijsL
