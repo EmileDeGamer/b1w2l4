@@ -9,8 +9,7 @@ let userInput
 
 //Geeft het welkomstbericht en het keuze menu weer
 alert('Welkom bij de "Pizza Calculator"')
-userInput = prompt('U kunt een keuze maken uit 3 verschillende maten pizzas kiezen: small, medium en large')
-choice()
+main()
 
 //functie die heraangeroepen kan worden
 function main(){
