@@ -15,7 +15,7 @@ function main(){
     choice()
 }
 
-//functie die de keuzes controleerd
+//functie die de keuzes controleerd en ervoor zorgt dat de code het gaat bereken of weer terug gaat naar het begin
 function choice(){
     if (userInput === 'small'){
         let tempHoeveelheidS = hoeveelheidS
@@ -64,7 +64,7 @@ function choice(){
     }
 }
 
-//functie die de prijzen weergeeft
+//functie die de prijzen berekent en weergeeft
 function bereken() {
     if (hoeveelheidL === undefined){
         hoeveelheidL = 0
